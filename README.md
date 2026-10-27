@@ -50,6 +50,9 @@ The [data types](DATA_TYPES.md) describe structured arguments. The [agent guide]
 - Copy and reference-repointing operations save files and are not guaranteed to be reversible with Ctrl+Z. Keep a project backup.
 - Header-patching mode is an advanced workflow. Review conflicts, external references and stray-copy reports before a real run.
 
+
+Copy sources must be plugin content roots. The engine rejects actual Advanced Copy operations from the base `/Engine` content folder even though dry-run planning can inspect those packages.
+
 ## Validation and release availability
 
 This documentation accompanies release preparation. It is not a claim that Fab has approved this product or that visual, gameplay or performance acceptance is complete. See [VALIDATION.md](VALIDATION.md) for the latest recorded technical checks. Until a Fab product link is added here, this product has no confirmed public purchase link.
