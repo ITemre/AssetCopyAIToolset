@@ -1,4 +1,4 @@
-# Corivo Asset Copy Toolset
+# Asset Copy AI Toolset
 
 Copy asset packages and their dependencies into project content through Unreal Editor's native MCP server.
 
@@ -59,7 +59,7 @@ This documentation accompanies release preparation. It is not a claim that Fab h
 
 ## Support
 
-Report reproducible problems through [GitHub issues](https://github.com/ITemre/AssetCopyToolset/issues). Include the engine version, plugin version, tool name, minimal arguments and error text. Remove credentials and private project data from reports.
+Report reproducible problems through [GitHub issues](https://github.com/ITemre/AssetCopyAIToolset/issues). Include the engine version, plugin version, tool name, minimal arguments and error text. Remove credentials and private project data from reports.
 
 ## Licence
 

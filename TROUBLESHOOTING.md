@@ -1,4 +1,4 @@
-# Corivo Asset Copy Toolset: troubleshooting
+# Asset Copy AI Toolset: troubleshooting
 
 | Symptom | Check |
 | --- | --- |
