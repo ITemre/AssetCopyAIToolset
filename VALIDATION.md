@@ -1,6 +1,14 @@
 # Validation status
 
-Practical checks recorded on 27 October 2026, using Unreal Engine 5.8.4 / Win64 in isolated local projects. Production projects and the original backup ZIPs were unchanged.
+Practical checks recorded on 27 and 29 October 2026, using Unreal Engine 5.8.4 / Win64 in isolated local projects. Production projects and the original backup ZIPs were unchanged.
+
+## Version 1.0.1 (29 October 2026)
+
+- Package for the Fab technical review: source only. No Binaries, no LICENSE file, no test code, no levels or sample assets.
+- Clean Win64 BuildPlugin with strict includes on the unpacked release ZIP, as Fab builds it: passed, no compiler warnings.
+- Buyer install path: the plugin built from the ZIP was installed into a fresh Blueprint-only project; the editor mounted it, registered the toolset and answered `list_toolsets`, `describe_toolset` and a `CopyPackages` dry run over the native MCP server.
+- The test suites used for earlier checks are internal and are no longer part of the package.
+- Real copy: 53 packages (22 static meshes, 21 textures, 7 material instances, 3 materials) from the DMXFixtures engine plugin into /Game/StageKit, after a dry run with 0 conflicts. No copy references the plugin afterwards; a stage level built only from the copies saved and rendered.
 
 ## Technical and practical checks
 
